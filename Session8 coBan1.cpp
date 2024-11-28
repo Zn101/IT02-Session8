@@ -4,8 +4,8 @@ int main(){
         {1,2,3},
         {4,5,6}
     };
-    for(int i=0;i<2;i++){
-        for(int f=0;f<3;f++){
+    for(int i=1;i>=0;i--){
+        for(int f=2;f>=0;f--){
             printf("n[%d][%d]=%d\n",i,f,n[i][f]);
         }
     }
